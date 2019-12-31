@@ -3,7 +3,7 @@ def line(customer)
     puts "The line is currently empty."
   elsif customer.length >= 1  
     counter = 1 
-    puts "The line is currently:#{counter}.#{customer}"
+    puts "The line is currently: #{counter}.#{customer}"
     counter += 1
   end
 end
