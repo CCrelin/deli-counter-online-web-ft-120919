@@ -16,4 +16,6 @@ def take_a_number(line, customer)
   puts "Welcome, #{customer}. You are number #{line.length} in line."
 end
 
-def now_serving
+def now_serving(line)
+  if line == []
+    puts 
