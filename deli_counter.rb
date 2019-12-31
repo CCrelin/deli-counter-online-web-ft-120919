@@ -5,4 +5,5 @@ def line(customer)
     customer.each_with_index |i, index|
     puts "The line is currently: #{index}.#{customer}"
   end
+  end
 end
