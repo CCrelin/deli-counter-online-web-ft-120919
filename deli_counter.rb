@@ -3,6 +3,7 @@ def line(customer)
     puts "The line is currently empty."
   elsif customer.length >= 1  
   customer.each_with_index do |i, index|
-    puts "The line
+    puts "The line is currently: #{index}. #{i}"
+  end
   end
 end
