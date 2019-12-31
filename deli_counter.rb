@@ -1,4 +1,4 @@
 def line(customer)
   if customer.length <= 0 
-    puts ""
+    puts "The line is currently empty."
 end
