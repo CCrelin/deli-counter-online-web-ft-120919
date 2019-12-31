@@ -5,7 +5,5 @@ def line(customer)
     counter = 1 
     puts "The line is currently:#{counter + "."}#{customer}"
     counter += 1
-      while counter == customer.length break
-      end
   end
 end
