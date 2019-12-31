@@ -1,1 +1,1 @@
-def take_a_number 
+def line 
