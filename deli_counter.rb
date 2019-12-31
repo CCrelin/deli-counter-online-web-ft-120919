@@ -20,6 +20,6 @@ def now_serving(line)
   if line == []
     puts "There is nobody waiting to be served!"
   else 
-    puts "Currently serving #{line.shift}."
+    line.shift
   end
 end
